@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace OrderDemo
 {
-    class Order
+    public class Order
     {
         private int quantity;
-        private double totalPrice;
+        protected double totalPrice;
 
         private const double UNIT_PRICE = 19.95;
 
         public int OrderNumber { get; set; }
         public string CustomerName { get; set; }
-        public int Quantity
+        public virtual int Quantity
         {
             get
             {
@@ -38,7 +38,7 @@ namespace OrderDemo
         public Order(int number, string custName, int qnty)
         {
             this.OrderNumber = number;
-            this.CustomerName = CustomerName;
+            this.CustomerName = custName;
             this.Quantity = qnty;
         }
 

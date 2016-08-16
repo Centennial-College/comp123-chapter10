@@ -29,12 +29,24 @@ namespace OrderDemo
                     DisplayIfOrdersAreEqual(order1, order2);
                 }
             }
+
+            DisplayTotalOfOrders(orderArray);
         }
 
         public static void DisplayIfOrdersAreEqual(Order o1, Order o2)
         {
             Console.WriteLine("It is {0} that Order #: {1} is equal to Order #: {2}",
                o1.Equals(o2), o1.OrderNumber, o2.OrderNumber);
+        }
+
+        public static void DisplayTotalOfOrders(Order[] orders)
+        {
+            double result = 0;
+            foreach (Order order in orders)
+            {
+                result += order.TotalPrice;
+            }
+            Console.WriteLine("The total price of all the orders is {0:C}", result);
         }
     }
 }
