@@ -26,6 +26,9 @@ namespace ShippedOrderDemo
 
             }
 
+            // sort ShippedOrders
+            Array.Sort(shippedOrders);
+
             // display them all (call toString())
             foreach (ShippedOrder shippedOrder in shippedOrders)
             {
