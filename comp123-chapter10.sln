@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesDemo", "ShapesDemo\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecoveringDemo", "RecoveringDemo\RecoveringDemo.csproj", "{EC484E37-8D29-460E-9B26-11CE4D0B22D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurningDemo", "TurningDemo\TurningDemo.csproj", "{09FE22B2-F12C-4707-9896-7CC1E2BA2422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{EC484E37-8D29-460E-9B26-11CE4D0B22D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC484E37-8D29-460E-9B26-11CE4D0B22D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC484E37-8D29-460E-9B26-11CE4D0B22D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FE22B2-F12C-4707-9896-7CC1E2BA2422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FE22B2-F12C-4707-9896-7CC1E2BA2422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FE22B2-F12C-4707-9896-7CC1E2BA2422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FE22B2-F12C-4707-9896-7CC1E2BA2422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
